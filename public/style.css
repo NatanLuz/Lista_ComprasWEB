@@ -1,0 +1,168 @@
+/*
+    Lista de Compras - Estilo Responsivo e Moderno
+*/
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(120deg, #fffbe6 0%, #ffe9c7 100%);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 440px;
+  margin: 40px auto;
+  background: #fffdfa;
+  border-radius: 22px;
+  box-shadow: 0 6px 32px rgba(255, 193, 7, 0.13);
+  padding: 36px 24px 28px 24px;
+  border: 2.5px solid #ffe082;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+  color: #d17b00;
+  margin-bottom: 28px;
+  font-size: 2.1rem;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+h1::before {
+  font-size: 1.5em;
+  margin-right: 6px;
+}
+
+form.form-flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 0;
+  background: #fff8e1;
+  border-radius: 8px;
+  padding: 10px 8px 16px 8px;
+  box-shadow: 0 1px 6px rgba(255, 193, 7, 0.07);
+}
+.form-row {
+  display: flex;
+  gap: 10px;
+}
+form.form-flex-col button[type="submit"] {
+  margin-top: 8px;
+  width: 100%;
+}
+
+input[type="text"],
+input[type="number"] {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1.5px solid #ffe082;
+  border-radius: 6px;
+  font-size: 1rem;
+  background: #fffbe6;
+  transition: border 0.2s;
+}
+input[type="text"]:focus,
+input[type="number"]:focus {
+  border: 1.5px solid #ffb300;
+  outline: none;
+}
+
+button[type="submit"] {
+  background: linear-gradient(90deg, #ffd54f 60%, #ffb300 100%);
+  color: #7c4700;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 18px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(255, 193, 7, 0.13);
+  transition: background 0.2s, color 0.2s;
+}
+button[type="submit"]:hover {
+  background: linear-gradient(90deg, #ffb300 60%, #ffd54f 100%);
+  color: #d17b00;
+}
+
+ul.product-list {
+  list-style: none;
+  padding: 0;
+  margin: 32px auto 0 auto;
+  max-width: 440px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fffde7;
+  border-radius: 9px;
+  margin-bottom: 13px;
+  padding: 13px 16px;
+  box-shadow: 0 2px 8px rgba(255, 193, 7, 0.07);
+  font-size: 1.08rem;
+  border-left: 6px solid #ffd54f;
+  position: relative;
+}
+li::before {
+  font-size: 1.1em;
+  margin-right: 10px;
+  opacity: 0.7;
+}
+
+li s {
+  color: #bdbdbd;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.actions a {
+  text-decoration: none;
+  color: #ff9800;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 4px;
+  background: #fff3e0;
+  border: 1.5px solid #ffe0b2;
+  transition: background 0.15s, color 0.15s, border 0.15s;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.actions a:hover {
+  background: #ffe0b2;
+  color: #d17b00;
+  border: 1.5px solid #ffb300;
+}
+
+@media (max-width: 600px) {
+  .container {
+    max-width: 98vw;
+    padding: 18px 4vw 18px 4vw;
+  }
+  h1 {
+    font-size: 1.3rem;
+  }
+  li {
+    font-size: 0.98rem;
+    padding: 10px 7px;
+  }
+  .form-row {
+    flex-direction: column;
+    gap: 7px;
+  }
+  form.form-flex-col button[type="submit"] {
+    width: 100%;
+  }
+  ul.product-list {
+    max-width: 98vw;
+  }
+}

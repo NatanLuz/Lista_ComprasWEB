@@ -1,0 +1,10 @@
+CREATE DATABASE lista_compras CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE lista_compras;
+
+CREATE TABLE items (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    quantity INT NOT NULL DEFAULT 1,
+    is_purchased TINYINT(1) NOT NULL DEFAULT 0,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
