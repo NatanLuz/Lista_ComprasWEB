@@ -18,10 +18,11 @@ O sistema permite gerenciar itens de forma prática, garantindo controle visual 
 
 ## 🛠 Tecnologias Utilizadas
 
-- **PHP 8.x**
+- **PHP**
 - **MySQL**
 - **PDO (Prepared Statements)**
 - HTML semântico
+- CSS3
 
 ---
 
