@@ -88,12 +88,15 @@ O projeto segue separação de responsabilidades para facilitar manutenção:
 ## 📸 Screenshots
 
 ### Tela inicial
+
 <img src="Screenshots/tela-inicial.PNG" width="600">
 
 ### Item adicionado
+
 <img src="Screenshots/item-adicionado.PNG" width="600">
 
 ### Item marcado como comprado
+
 <img src="Screenshots/item-marcado.PNG" width="600">
 
 ---
