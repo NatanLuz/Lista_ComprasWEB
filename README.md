@@ -50,7 +50,7 @@ O projeto segue separação de responsabilidades para facilitar manutenção:
 - PHP 8+  
 - MySQL  
 - PDO (camada de acesso a dados)  
-- HTML5 semântico  
+- HTML5   
 - CSS3  
 
 ---
