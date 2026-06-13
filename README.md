@@ -33,15 +33,7 @@ O projeto segue separação de responsabilidades para facilitar manutenção:
 
 - **Configuração** → parâmetros e conexão com banco  
 - **Repositório** → acesso a dados e regras de negócio  
-- **Apresentação** → interface e resposta HTTP  
-
----
-
-## 🔐 Segurança
-
-- Uso de PDO com prepared statements (mitigação de SQL Injection)  
-- Validação de entrada de dados  
-- Ausência de concatenação SQL em operações críticas  
+- **Apresentação** → interface e resposta HTTP 
 
 ---
 
