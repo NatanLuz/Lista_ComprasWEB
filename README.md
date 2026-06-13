@@ -13,7 +13,7 @@ Fornecer uma alternativa digital simples e eficiente para listas de compras do d
 
 - Redução de perda de informações comuns em listas manuais  
 - Visualização clara do status dos itens  
-- Interface objetiva para uso cotidiano  
+- Interface objetiva para o uso cotidiano  
 
 ---
 
