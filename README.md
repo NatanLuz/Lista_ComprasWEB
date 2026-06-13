@@ -39,9 +39,9 @@ O projeto segue separação de responsabilidades para facilitar manutenção:
 
 ## 🧰 Stack Tecnológica
 
-- PHP 8+  
+- PHP
 - MySQL  
-- PDO (camada de acesso a dados)  
+- PDO
 - HTML5   
 - CSS3  
 
