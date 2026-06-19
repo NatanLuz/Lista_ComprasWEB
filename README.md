@@ -1,6 +1,7 @@
 ## Lista de Compras em PHP
 
 Aplicação web em PHP para gerenciamento de listas de compras, com persistência em banco de dados e controle de status dos itens em tempo real.
+
 (Projeto com Futuras melhorias a fazer)
 
 ---
