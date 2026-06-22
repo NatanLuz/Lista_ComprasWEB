@@ -58,7 +58,7 @@ O projeto segue separação de responsabilidades para facilitar manutenção:
 
 ### Passos
 
-1. Clonar o repositório  
+1. Clone o repositório  
 2. Criar o banco de dados  
 3. Importar o script SQL  
 4. Configurar credenciais  
