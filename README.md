@@ -6,7 +6,7 @@ Aplicação web em PHP para gerenciamento de listas de compras, com persistênci
 
 ---
 
-## 🎯 Proposta de Valor
+## 🎯 Objetivo do Projeto
 
 Fornecer uma alternativa digital simples e eficiente para listas de compras do dia a dia, permitindo acompanhamento claro dos itens pendentes e concluídos.
 
